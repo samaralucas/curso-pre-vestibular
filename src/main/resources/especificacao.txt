@@ -1,0 +1,66 @@
+Aplicação para controle de matrículas e pagamentos de mensalidade de alunos de um curso preparatório.
+
+1. O sistema deve permitir o cadastro de alunos, professores e cursos.
+2. O sistema deve permitir a matrícula de alunos em cursos.
+3. O sistema deve permitir o lançamento de notas dos alunos.
+4. O sistema deve permitir o lançamento de faltas dos alunos.
+5. O sistema deve permitir o lançamento de pagamentos de mensalidades dos alunos.
+6. O sistema deve permitir a consulta de notas, faltas e pagamentos de mensalidades dos alunos.
+7. O sistema deve permitir a consulta de alunos matriculados em um curso.
+18. O cadastro de um aluno ou responsável financeiro deve conter:
+    - Nome
+    - CPF
+    - Data de nascimento
+    - Endereço
+    - Telefone
+    - E-mail
+    - Data de cadastro
+19. O cadastro de um professor deve conter:
+    - Nome
+    - CPF
+    - Especialidade
+    - Data de nascimento
+    - Endereço
+    - Telefone
+    - E-mail
+    - Data de cadastro
+    - Data de admissão
+    - Salário
+20. O cadastro de um curso deve conter:
+    - Nome
+    - Data de início
+    - Data de término
+    - Valor da mensalidade
+    - Valor da matrícula
+    - Data de cadastro
+21. O cadastro de uma matrícula deve conter:
+    - Aluno
+    - Curso
+    - Professores que ministram o curso
+    - Data de matrícula
+    - Data de cancelamento
+    - Valor da matrícula
+    - Valor da mensalidade
+22. O lançamento de notas deve conter:
+    - Aluno
+    - Curso
+    - Professor
+    - Data de lançamento
+    - Nota
+23. O lançamento de faltas deve conter:
+    - Aluno
+    - Curso
+    - Data de lançamento
+    - Quantidade de faltas
+24. O lançamento de pagamentos de mensalidades deve conter:
+    - Aluno
+    - Curso
+    - Data de lançamento
+    - Valor pago
+25. Em caso de inadimplencia, o sistema deve permitir o envio de e-mail para o aluno e para o responsável financeiro.
+26. Em caso de inadimplencia, o sistema deve gerar multa de 10% sobre o valor da mensalidade.
+27. Em caso de inadimplencia, o sistema deve gerar juros diarios de 0,1% sobre o valor da mensalidade.
+28. Em caso de inadimplencia superior a 60 dias, o sistema deve permitir o bloqueio do aluno para novas matrículas.
+29. Em caso de inadimplencia superior a 90 dias, o sistema deve permitir o cancelamento da matrícula.
+30. Em caso de falta, o sistema deve permitir o envio de e-mail para o aluno e para o responsável financeiro.
+31. Em caso de número de faltas superior a 10 dias, o sistema deve permitir o bloqueio do aluno para novas matrículas.
